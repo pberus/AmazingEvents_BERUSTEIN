@@ -12,6 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link rel="shortcut icon" href="./assets/img/Logo-Amazing-Events (1).ico" type="image/x-icon">
   </head>
   <body>
     <header>
@@ -20,7 +21,8 @@
           <a class="navbar-brand" href="#">
             <img
               src="./assets/img/Logo Amazing Events.png"
-              alt="Amazing Events" height="24"
+              alt="Amazing Events"
+              height="24"
             />
           </a>
           <button
@@ -38,12 +40,39 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <form class="container-fluid justify-content-start">
-                    <button class="btn btn-sm btn-outline-secondary" type="button"><a class="nav-link active" aria-current="page" href="#">Home</a></button>
-                    <button class="btn btn-sm btn-outline-secondary" type="button"><a href="./pages/upcomingEvents.html">Upcoming Events</a></button>
-                    <button class="btn btn-sm btn-outline-secondary" type="button"><a href="./pages/pastEvents.html">Past Events</a></button>
-                    <button class="btn btn-sm btn-outline-secondary" type="button"><a href="./pages/contact.html">contact</a></button>
-                    <button class="btn btn-sm btn-outline-secondary" type="button"><a href="./pages/stats.html">stats</a> </button>
-                  </form>
+                  <button
+                    class="btn btn-sm btn-outline-secondary"
+                    type="button"
+                  >
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </button>
+                  <button
+                    class="btn btn-sm btn-outline-secondary"
+                    type="button"
+                  >
+                    <a href="./pages/upcomingEvents.html">Upcoming Events</a>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-outline-secondary"
+                    type="button"
+                  >
+                    <a href="./pages/pastEvents.html">Past Events</a>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-outline-secondary"
+                    type="button"
+                  >
+                    <a href="./pages/contact.html">contact</a>
+                  </button>
+                  <button
+                    class="btn btn-sm btn-outline-secondary"
+                    type="button"
+                  >
+                    <a href="./pages/stats.html">stats</a>
+                  </button>
+                </form>
               </li>
             </ul>
           </div>
@@ -55,7 +84,38 @@
         <h2><a href="./pages/upcomingEvents.html">></a></h2>
       </div>
     </header>
-    <main></main>
+    <main>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="inlineCheckbox1"
+          value="option1"
+        />
+        <label class="form-check-label" for="inlineCheckbox1">1</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="inlineCheckbox2"
+          value="option2"
+        />
+        <label class="form-check-label" for="inlineCheckbox2">2</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="inlineCheckbox3"
+          value="option3"
+          disabled
+        />
+        <label class="form-check-label" for="inlineCheckbox3"
+          >3 (disabled)</label
+        >
+      </div>
+    </main>
     <footer></footer>
 
     <script
