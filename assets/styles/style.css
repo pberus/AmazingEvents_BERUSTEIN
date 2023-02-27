@@ -9,3 +9,7 @@
     height: 150px !important;
     object-fit: cover;
 }
+
+a {
+    text-decoration: none;
+}
